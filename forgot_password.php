@@ -34,7 +34,10 @@ unset($_SESSION['forgot_error']);
 ?>
 <!DOCTYPE html>
 <html lang="id">
-<head><meta charset="utf-8"><title>Lupa Password</title></head>
+<head>
+  <meta charset="utf-8"><title>Lupa Password</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
   <h2>Lupa Password</h2>
   <?php if ($error): ?>

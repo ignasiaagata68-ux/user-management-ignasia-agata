@@ -59,7 +59,11 @@ unset($_SESSION['reset_error']);
 ?>
 <!DOCTYPE html>
 <html lang="id">
-<head><meta charset="utf-8"><title>Reset Password</title></head>
+<head>
+    <meta charset="utf-8"><title>Reset Password</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
 <body>
   <h2>Reset Password untuk <?= htmlspecialchars($user['username']) ?></h2>
   <?php if ($error): ?>

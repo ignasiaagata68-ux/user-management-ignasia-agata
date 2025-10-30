@@ -399,3 +399,263 @@ p {
     color: red;
 }
 
+
+/* style.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Judul & pesan */
+h2, h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.welcome {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Link tambah */
+.add-link {
+    display: block;
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.add-link:hover {
+    text-decoration: underline;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Link aksi */
+a.edit, a.delete {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+a.edit:hover, a.delete:hover {
+    text-decoration: underline;
+}
+
+
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Gaya umum halaman */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+  padding-top: 80px;
+}
+
+/* Container utama */
+.container {
+  background-color: #fff;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-top: 5px solid #4CAF50; /* hijau serasi dengan dashboard */
+}
+
+/* Judul */
+h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+/* Paragraf */
+p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Link reset */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Keterangan kecil */
+small {
+  color: #777;
+  font-size: 13px;
+}
+
+/* Tombol kembali ke login */
+p a[href="login.php"] {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+p a[href="login.php"]:hover {
+  background-color: #388e3c;
+}
+
+
+/* ===== Reset dasar ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== Tampilan umum ===== */
+body {
+  background-color: #f5f6f5;
+  text-align: center;
+  padding-top: 70px;
+  color: #333;
+}
+
+/* ===== Judul ===== */
+h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+/* ===== Pesan error ===== */
+p[style*="color:red"] {
+  color: #e53935 !important;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+/* ===== Form container ===== */
+form {
+  background-color: #fff;
+  width: 380px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid #4CAF50;
+  text-align: left;
+}
+
+/* ===== Label ===== */
+label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* ===== Input field ===== */
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+input[type="password"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.5);
+}
+
+/* ===== Tombol ===== */
+button {
+  display: block;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+/* ===== Link kembali ===== */
+p a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
