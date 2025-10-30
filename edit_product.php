@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-
+ <link rel="stylesheet" href="style.css">
 <h2>Edit Produk</h2>
 <form method="POST">
     Nama Produk: <input type="text" name="name" value="<?= $product['name']; ?>" required><br><br>

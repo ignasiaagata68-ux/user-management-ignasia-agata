@@ -659,3 +659,122 @@ p a:hover {
   text-decoration: underline;
 }
 
+body {
+  background-color: #f9fafb;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+p {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+a {
+  display: inline-block;
+  background-color: #218838; /* hijau solid, langsung kelihatan */
+  color: white; /* tulisan putih */
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+  background-color: #1e7e34; /* sedikit lebih gelap saat hover */
+}
+
+
+body {
+  background-color: #f9fafb;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+a {
+  color: white;
+  background-color: #28a745; /* hijau */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+a:hover {
+  background-color: #218838; /* hijau lebih gelap saat hover */
+}
+
+p[style*="color:red"] {
+  color: red !important; /* untuk pesan error */
+  font-weight: bold;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    text-align: center;
+    padding-top: 60px;
+    color: #333;
+}
+
+h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #ffffff;
+    padding: 25px 40px;
+    border-radius: 10px;
+    max-width: 450px;
+    margin: 0 auto;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+p {
+    color: #2e7d32;
+    font-weight: bold;
+    text-align: center;
+}
+

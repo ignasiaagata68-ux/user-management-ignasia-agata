@@ -26,6 +26,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $update_query = "UPDATE user SET password='$new_password_hashed' WHERE id=" . $user_data['id'];
         if ($conn->query($update_query) === TRUE) {
             echo "<p>Password berhasil diperbarui!</p>";
+            // Redirect ke dashboard setelah berhasil
+            header("Location: dashboard.php");
         } else {
             echo "<p>Terjadi kesalahan saat memperbarui password: " . $conn->error . "</p>";
         }
